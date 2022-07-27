@@ -13,6 +13,7 @@ const loginState={
     name:StorageData?StorageData.u_name:(LocalData?LocalData.u_name:null),
     part:StorageData?StorageData.u_part:(LocalData?LocalData.u_part:null),
 };
+//console.log("쿠키값?",loginState);
 console.log("쿠키값?",loginState);
 function reducer (state=loginState, action)  {
     switch(action.type) {
